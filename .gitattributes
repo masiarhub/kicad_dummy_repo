@@ -32,3 +32,10 @@ Images/**         linguist-generated=true
 
 # Every feature adds lines to the same "Unreleased" section: keep both sides
 CHANGELOG.md merge=union
+*.csv filter=bom_csv
+*.html filter=bom_html
+*.gbr filter=gerber
+*.gbrjob filter=gbrjob
+*.xml filter=xml
+*.kicad_pcb filter=kicad_pcb_f
+*.net filter=net_filter
