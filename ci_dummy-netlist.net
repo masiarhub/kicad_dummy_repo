@@ -1,6 +1,6 @@
 (export (version "E")
   (design
-    (source "/github/workspace/ci_dummy.kicad_sch")
+    (source "/tmp/tmp-kibot-net_sch_print-6lsemk6w/ci_dummy.kicad_sch")
     (date "Date")
     (tool "Eeschema 9.0.7+1")
     (textvar (name "ASSEMBLY_NOTES"))
@@ -178,7 +178,42 @@
         (comment (number "7") (value ""))
         (comment (number "8") (value ""))
         (comment (number "9") (value "")))))
-  (components)
-  (libparts)
-  (libraries)
-  (nets))
+  (components
+    (comp (ref "R301")
+      (value "10k")
+      (footprint "Resistor_SMD:R_0603_1608Metric")
+      (datasheet "~")
+      (fields
+        (field (name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+        (field (name "Datasheet") "~")
+        (field (name "Description")))
+      (libsource (lib "Device") (part "R") (description "Resistor"))
+      (property (name "Sheetname") (value "Section A - Title A"))
+      (property (name "Sheetfile") (value "Section A - Title A.kicad_sch"))
+      (property (name "ki_keywords") (value "R res resistor"))
+      (property (name "ki_fp_filters") (value "R_*"))
+      (sheetpath (names "/Project Architecture/Section A - Title A/") (tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"))
+      (tstamps "f10964b3-50c3-47ca-9b31-6edc5dabf272")))
+  (libparts
+    (libpart (lib "Device") (part "R")
+      (description "Resistor")
+      (docs "~")
+      (footprints
+        (fp "R_*"))
+      (fields
+        (field (name "Reference") "R")
+        (field (name "Value") "R")
+        (field (name "Footprint"))
+        (field (name "Datasheet") "~")
+        (field (name "Description") "Resistor"))
+      (pins
+        (pin (num "1") (name "") (type "passive"))
+        (pin (num "2") (name "") (type "passive")))))
+  (libraries
+    (library (logical "Device")
+      (uri "/usr/share/kicad/symbols/Device.kicad_sym")))
+  (nets
+    (net (code "1") (name "unconnected-(R301-Pad1)") (class "Default")
+      (node (ref "R301") (pin "1") (pintype "passive")))
+    (net (code "2") (name "unconnected-(R301-Pad2)") (class "Default")
+      (node (ref "R301") (pin "2") (pintype "passive")))))

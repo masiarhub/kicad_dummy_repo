@@ -194,8 +194,56 @@
       </title_block>
     </sheet>
   </design>
-  <components/>
-  <libparts/>
-  <libraries/>
-  <nets/>
+  <components>
+    <comp ref="R301">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Section A - Title A"/>
+      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>f10964b3-50c3-47ca-9b31-6edc5dabf272</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="unconnected-(R301-Pad1)" class="Default">
+      <node ref="R301" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="unconnected-(R301-Pad2)" class="Default">
+      <node ref="R301" pin="2" pintype="passive"/>
+    </net>
+  </nets>
 </export>
