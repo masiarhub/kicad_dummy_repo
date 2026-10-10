@@ -22,7 +22,7 @@ feature/b         ●──●──●───●        owner: Bob    (Sectio
 * Every KiCad sheet is its own `.kicad_sch` file. If each branch only touches its own sheet file, Git merges branches without conflicts. The guard enforces this.
 * Generated files (PDFs, gerbers, README) are only committed on `dev`/`main`. Feature branches never contain them, so two features can't conflict on binary PDFs. The guard rejects generated files (and CI config in `.github/`, `kibot_yaml/`, `kibot_resources/`) on feature branches.
 * The guard reads `sheet-ownership.conf` from `dev`, so editing it on a feature branch has no effect: ownership changes go through the integrator.
-* `CHANGELOG.md` merges with Git's `union` driver: two features adding lines under *Unreleased* keep both lines instead of conflicting. Check the order of lines once before a release.
+* Nobody edits `CHANGELOG.md` on a feature branch. Each change adds its own new file `changelog.d/<feature>-<topic>.md` (see `changelog.d/README.md`), so parallel PRs never touch the same file. The release tag job moves all fragments into `CHANGELOG.md`.
 * The `.kicad_pro`, root sheet, parent sheets (which hold the sheet symbols and sheet pins) and the `.kicad_pcb` are shared. Only the integrator changes them, on `dev`.
 * `.kicad_prl` (your personal view state) is git-ignored.
 
@@ -51,6 +51,9 @@ git merge origin/dev                      # optional: pick up integrated work (d
 # 2. stage: add your files by name, never "git add -A"
 git status
 git add "Power - Generation.kicad_sch"
+#    changelog: a NEW file per change, never CHANGELOG.md itself
+printf '### Added\n- 5V buck stage\n' > changelog.d/power-gen-buck.md
+git add changelog.d/power-gen-buck.md
 # 3. commit
 git commit -m "power-gen: add 5V buck stage"
 # 4. push
@@ -96,4 +99,3 @@ Git cannot lock text files. We use:
 PR `dev` → `main`, then `git switch main && git pull && git tag 1.0.0 && git push origin 1.0.0`, then `git switch dev && git merge main`.
 
 CI rejects a tag that does not point at a commit on `main`. If that happens, delete the tag (`git tag -d 1.0.0 && git push origin :refs/tags/1.0.0`) and tag `main`.
-- Note added during a CI run (T16).

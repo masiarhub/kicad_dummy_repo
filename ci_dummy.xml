@@ -56,7 +56,7 @@
 		UL94V-0 REQUIREMENTS.
 	B.	Tg 170 C OR EQUIVALENT.
 	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, 
-		HALOGEN FREE AND APPROVED BY COMPANY.
+		HALOGEN FREE AND APPROVED BY ETH ROBOTICS CLUB.
 
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
@@ -74,8 +74,8 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">593369c</textvar>
-    <textvar name="GIT_HASH_SCH">593369c</textvar>
+    <textvar name="GIT_HASH_PCB">258f65d</textvar>
+    <textvar name="GIT_HASH_SCH">c2824a7</textvar>
     <textvar name="GIT_URL">https://github.com/masiarhub/kicad_dummy_repo</textvar>
     <textvar name="PROJECT_NAME">Project Name</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -90,7 +90,7 @@
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">0.1.0</textvar>
+    <textvar name="REVISION">0.1.0+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -131,12 +131,12 @@
     <textvar name="SHEET_NAME_7">Revision History</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">DRAFT</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>ETH Robotics Club</company>
-        <rev>0.1.0</rev>
+        <rev>0.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>ci_dummy.kicad_sch</source>
         <comment number="1" value=""/>
@@ -154,7 +154,7 @@
       <title_block>
         <title>Block Diagram</title>
         <company>ETH Robotics Club</company>
-        <rev>0.1.0</rev>
+        <rev>0.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -172,7 +172,7 @@
       <title_block>
         <title>Project Architecture</title>
         <company>ETH Robotics Club</company>
-        <rev>0.1.0</rev>
+        <rev>0.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
@@ -190,7 +190,7 @@
       <title_block>
         <title>Sheet Title A</title>
         <company>ETH Robotics Club</company>
-        <rev>0.1.0</rev>
+        <rev>0.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Section A - Title A.kicad_sch</source>
         <comment number="1" value=""/>
@@ -208,7 +208,7 @@
       <title_block>
         <title>Sheet Title B</title>
         <company>ETH Robotics Club</company>
-        <rev>0.1.0</rev>
+        <rev>0.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Section B - TItle B.kicad_sch</source>
         <comment number="1" value=""/>
@@ -226,7 +226,7 @@
       <title_block>
         <title>Power - Sequencing</title>
         <company>ETH Robotics Club</company>
-        <rev>0.1.0</rev>
+        <rev>0.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Power - Sequencing.kicad_sch</source>
         <comment number="1" value=""/>
@@ -244,7 +244,7 @@
       <title_block>
         <title>Revision History</title>
         <company>ETH Robotics Club</company>
-        <rev>0.1.0</rev>
+        <rev>0.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
@@ -328,6 +328,23 @@
       <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
       <tstamps>32c919cd-9508-48c4-9eb1-daf6d5bff00f</tstamps>
     </comp>
+    <comp ref="R906">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Project Architecture"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>0b320eba-91ca-485c-84c8-203bdc855ff8</tstamps>
+    </comp>
     <comp ref="R1">
       <value>2k2</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
@@ -396,6 +413,23 @@
       <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>34716abc-f698-4df0-baa7-db61baaf68b9</tstamps>
     </comp>
+    <comp ref="R304">
+      <value>68k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Section A - Title A"/>
+      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>c9dffd31-a9b1-432e-87c5-f00da90ff391</tstamps>
+    </comp>
     <comp ref="R401">
       <value>4k7</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
@@ -429,6 +463,23 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Section B - Title B/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
       <tstamps>56b8223f-acf3-46cd-a328-9f419f066036</tstamps>
+    </comp>
+    <comp ref="R405">
+      <value>150</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Section B - Title B"/>
+      <property name="Sheetfile" value="Section B - TItle B.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Section B - Title B/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>43b41358-e7c8-4491-8441-f25feb9e304c</tstamps>
     </comp>
   </components>
   <libparts>
@@ -481,41 +532,59 @@
     <net code="8" name="unconnected-(R303-Pad2)" class="Default">
       <node ref="R303" pin="2" pintype="passive+no_connect"/>
     </net>
-    <net code="9" name="unconnected-(R401-Pad1)" class="Default">
+    <net code="9" name="unconnected-(R304-Pad1)" class="Default">
+      <node ref="R304" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(R304-Pad2)" class="Default">
+      <node ref="R304" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(R401-Pad1)" class="Default">
       <node ref="R401" pin="1" pintype="passive+no_connect"/>
     </net>
-    <net code="10" name="unconnected-(R401-Pad2)" class="Default">
+    <net code="12" name="unconnected-(R401-Pad2)" class="Default">
       <node ref="R401" pin="2" pintype="passive+no_connect"/>
     </net>
-    <net code="11" name="unconnected-(R403-Pad1)" class="Default">
+    <net code="13" name="unconnected-(R403-Pad1)" class="Default">
       <node ref="R403" pin="1" pintype="passive+no_connect"/>
     </net>
-    <net code="12" name="unconnected-(R403-Pad2)" class="Default">
+    <net code="14" name="unconnected-(R403-Pad2)" class="Default">
       <node ref="R403" pin="2" pintype="passive+no_connect"/>
     </net>
-    <net code="13" name="unconnected-(R901-Pad1)" class="Default">
+    <net code="15" name="unconnected-(R405-Pad1)" class="Default">
+      <node ref="R405" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(R405-Pad2)" class="Default">
+      <node ref="R405" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(R901-Pad1)" class="Default">
       <node ref="R901" pin="1" pintype="passive+no_connect"/>
     </net>
-    <net code="14" name="unconnected-(R901-Pad2)" class="Default">
+    <net code="18" name="unconnected-(R901-Pad2)" class="Default">
       <node ref="R901" pin="2" pintype="passive+no_connect"/>
     </net>
-    <net code="15" name="unconnected-(R902-Pad1)" class="Default">
+    <net code="19" name="unconnected-(R902-Pad1)" class="Default">
       <node ref="R902" pin="1" pintype="passive+no_connect"/>
     </net>
-    <net code="16" name="unconnected-(R902-Pad2)" class="Default">
+    <net code="20" name="unconnected-(R902-Pad2)" class="Default">
       <node ref="R902" pin="2" pintype="passive+no_connect"/>
     </net>
-    <net code="17" name="unconnected-(R903-Pad1)" class="Default">
+    <net code="21" name="unconnected-(R903-Pad1)" class="Default">
       <node ref="R903" pin="1" pintype="passive+no_connect"/>
     </net>
-    <net code="18" name="unconnected-(R903-Pad2)" class="Default">
+    <net code="22" name="unconnected-(R903-Pad2)" class="Default">
       <node ref="R903" pin="2" pintype="passive+no_connect"/>
     </net>
-    <net code="19" name="unconnected-(R905-Pad1)" class="Default">
+    <net code="23" name="unconnected-(R905-Pad1)" class="Default">
       <node ref="R905" pin="1" pintype="passive+no_connect"/>
     </net>
-    <net code="20" name="unconnected-(R905-Pad2)" class="Default">
+    <net code="24" name="unconnected-(R905-Pad2)" class="Default">
       <node ref="R905" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(R906-Pad1)" class="Default">
+      <node ref="R906" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(R906-Pad2)" class="Default">
+      <node ref="R906" pin="2" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>

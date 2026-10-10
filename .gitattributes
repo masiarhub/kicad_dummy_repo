@@ -30,8 +30,6 @@ Report*/**        linguist-generated=true
 Testing/**        linguist-generated=true
 Images/**         linguist-generated=true
 
-# Every feature adds lines to the same "Unreleased" section: keep both sides
-CHANGELOG.md merge=union
 *.csv filter=bom_csv
 *.html filter=bom_html
 *.gbr filter=gerber

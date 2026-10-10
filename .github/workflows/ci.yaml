@@ -85,6 +85,10 @@ jobs:
           GUARD_MODE: ${{ vars.SHEET_GUARD_MODE || 'fail' }}
         run: bash .github/scripts/check_sheet_ownership.sh
 
+      - name: Validate changelog fragments (changelog.d/)
+        if: ${{ always() }}
+        run: python3 .github/scripts/collect_changelog.py --check
+
   # ---------------------------------------------------------------------------
   # Feature branches and PRs: ERC + schematic PDF as artifacts, no commits
   # ---------------------------------------------------------------------------
@@ -215,6 +219,13 @@ jobs:
           git fetch
           git pull origin main
 
+      # Features add changelog.d/<feature>-<topic>.md instead of editing
+      # CHANGELOG.md (no merge conflicts). Move them into [Unreleased] here, so
+      # the next step turns them into the section of this version.
+      - name: Collect changelog fragments
+        if: ${{ github.ref_type == 'tag' }}
+        run: python3 .github/scripts/collect_changelog.py
+
       - name: Extract release notes
         if: ${{ github.ref_type == 'tag' }}
         uses: ffurrer2/extract-release-notes@v2
@@ -234,7 +245,7 @@ jobs:
         with:
           branch: main
           commit_message: Update CHANGELOG
-          file_pattern: CHANGELOG.md
+          file_pattern: CHANGELOG.md changelog.d
           push_options: '--force'
 
       - name: Cache 3D models data
@@ -368,7 +379,7 @@ jobs:
             fi
           fi
           if ! git push origin "HEAD:refs/heads/$BRANCH"; then
-            echo "::warning title=Outputs not pushed::Push to $BRANCH was rejected (branch moved or branch protection). See docs/TESTING.md, test T6."
+            echo "::warning title=Outputs not pushed::Push to $BRANCH was rejected (branch moved or branch protection). See docs/TESTING.md, tests T6 and T8."
             exit 1
           fi
 
