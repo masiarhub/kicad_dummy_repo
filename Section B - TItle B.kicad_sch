@@ -701,40 +701,4 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "626ba83c-3915-48c6-8851-07a968c65d84")
-		(property "Reference" "R404"
-			(at 144.78 101.6 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "1k"
-			(at 144.78 104.14 0)
-			(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 101.6 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(property "Datasheet" "~"
-			(at 142.24 101.6 0)
-			(effects (font (size 1.27 1.27)) (hide yes))
-		)
-		(pin "1" (uuid "e60ec008-ff4e-4ee6-9d40-200a498b63ae"))
-		(pin "2" (uuid "706044a1-ed0d-468e-8e86-51a409c92863"))
-		(instances
-			(project "ci_dummy"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "R404")
-					(unit 1)
-				)
-			)
-		)
-	)
 )
