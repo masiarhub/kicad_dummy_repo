@@ -629,6 +629,22 @@
 		)
 		(uuid "ff128f57-01dd-404e-9bb2-8208299d438c")
 	)
+	(no_connect
+		(at 101.6 97.79)
+		(uuid "0c3d8cae-7d68-4bad-9850-a07636f82780")
+	)
+	(no_connect
+		(at 101.6 105.41)
+		(uuid "4d29ae62-e577-4cbc-b609-e5ac85ef4d4e")
+	)
+	(no_connect
+		(at 121.92 97.79)
+		(uuid "053cb018-34fd-41ec-a951-6059a9bdea54")
+	)
+	(no_connect
+		(at 121.92 105.41)
+		(uuid "b3eecd3d-a2f6-49cd-a06a-f2c62d7299ba")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 101.6 101.6 0)

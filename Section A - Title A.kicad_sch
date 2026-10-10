@@ -306,6 +306,38 @@
 		)
 		(uuid "f25578fd-4ab6-4599-95bc-eaa8a509f479")
 	)
+	(no_connect
+		(at 101.6 97.79)
+		(uuid "72ff9035-cb0f-40ad-bfc6-c90faab7c947")
+	)
+	(no_connect
+		(at 101.6 105.41)
+		(uuid "91b2e342-7556-4eca-9f16-23cd3d6698cb")
+	)
+	(no_connect
+		(at 111.76 97.79)
+		(uuid "d4f249f4-e87c-45a7-b378-7383e7956e76")
+	)
+	(no_connect
+		(at 111.76 105.41)
+		(uuid "da02be96-6772-424c-b504-b9faba9139ae")
+	)
+	(no_connect
+		(at 121.92 97.79)
+		(uuid "c5857ea5-b63c-4fb0-984d-31cbe071ed62")
+	)
+	(no_connect
+		(at 121.92 105.41)
+		(uuid "c5d5de57-3b8a-447c-8864-8e9aed2f61a4")
+	)
+	(no_connect
+		(at 132.08 97.79)
+		(uuid "9ca3708d-9389-4109-b86e-5d39d696672f")
+	)
+	(no_connect
+		(at 132.08 105.41)
+		(uuid "532a20a8-ffba-4e0b-b61c-08e6c0d96f41")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 101.6 101.6 0)
