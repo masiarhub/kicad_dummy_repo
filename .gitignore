@@ -23,3 +23,5 @@ kibot_*.kicad_pro
 .history/
 # KiBot logs are uploaded as CI artifacts, not committed
 kibot_*.log
+
+# sandbox

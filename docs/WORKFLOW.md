@@ -96,3 +96,4 @@ Git cannot lock text files. We use:
 PR `dev` → `main`, then `git switch main && git pull && git tag 1.0.0 && git push origin 1.0.0`, then `git switch dev && git merge main`.
 
 CI rejects a tag that does not point at a commit on `main`. If that happens, delete the tag (`git tag -d 1.0.0 && git push origin :refs/tags/1.0.0`) and tag `main`.
+- Note added during a CI run (T16).

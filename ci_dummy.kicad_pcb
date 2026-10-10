@@ -8317,4 +8317,12 @@
 		(uuid "98628d83-6812-48a7-b872-48e0af9d3fce")
 		(members "9b49a5f1-a044-4574-bae7-d4aac7dd0028" "f2756535-d928-4ef9-bddd-5c360994c086")
 	)
+	(via
+		(at 100 100)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 0)
+		(uuid "c08b16b7-8548-4624-8933-99912a2a7a56")
+	)
 )
