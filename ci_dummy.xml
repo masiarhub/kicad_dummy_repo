@@ -263,6 +263,23 @@
       <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
       <tstamps>32c919cd-9508-48c4-9eb1-daf6d5bff00f</tstamps>
     </comp>
+    <comp ref="R906">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Project Architecture"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>0b320eba-91ca-485c-84c8-203bdc855ff8</tstamps>
+    </comp>
     <comp ref="R1">
       <value>2k2</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
@@ -451,6 +468,12 @@
     </net>
     <net code="20" name="unconnected-(R905-Pad2)" class="Default">
       <node ref="R905" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(R906-Pad1)" class="Default">
+      <node ref="R906" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(R906-Pad2)" class="Default">
+      <node ref="R906" pin="2" pintype="passive"/>
     </net>
   </nets>
 </export>
