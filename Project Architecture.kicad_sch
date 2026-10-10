@@ -526,4 +526,40 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9f33c29-bfab-45b4-8d85-02fda1ca5939")
+		(property "Reference" "R903"
+			(at 73.66000000000001 50.8 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "1k"
+			(at 73.66000000000001 53.339999999999996 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.12 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 71.12 50.8 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "909ee6bc-73d4-4e88-a009-3d1826c41269"))
+		(pin "2" (uuid "1b366007-ad4e-4d09-a5da-34bab05b3899"))
+		(instances
+			(project "ci_dummy"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(reference "R903")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
