@@ -18,8 +18,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">09-Oct-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-10-09</textvar>
+    <textvar name="RELEASE_DATE">10-Oct-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-10-10</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -195,6 +195,40 @@
     </sheet>
   </design>
   <components>
+    <comp ref="R901">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Project Architecture"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>f9ed2fb8-3a4e-4173-9a12-82a8b8c4439a</tstamps>
+    </comp>
+    <comp ref="R902">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Project Architecture"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>a06dbdbb-67fa-4836-9d6d-f3ef65410b89</tstamps>
+    </comp>
     <comp ref="R301">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
@@ -267,6 +301,18 @@
     </net>
     <net code="4" name="unconnected-(R401-Pad2)" class="Default">
       <node ref="R401" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="unconnected-(R901-Pad1)" class="Default">
+      <node ref="R901" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="unconnected-(R901-Pad2)" class="Default">
+      <node ref="R901" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="unconnected-(R902-Pad1)" class="Default">
+      <node ref="R902" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="unconnected-(R902-Pad2)" class="Default">
+      <node ref="R902" pin="2" pintype="passive"/>
     </net>
   </nets>
 </export>
