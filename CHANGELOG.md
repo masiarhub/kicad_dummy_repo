@@ -8,6 +8,7 @@
 
 ### Added
 
+-   Section B: R401 bias resistor
 -   Additions
 
 ### Changed
