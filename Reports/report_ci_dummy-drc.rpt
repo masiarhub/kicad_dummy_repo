@@ -1,0 +1,70 @@
+** Drc report for ci_dummy.kicad_pcb **
+** Created on 2026-10-10T08:03:00+0000 **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 20 Footprint errors **
+[net_conflict]: Pad missing net given by schematic (unconnected-(R901-Pad1)).
+    ; warning
+    @(121.175 mm, 88.0 mm): Pad 1 [<no net>] of R901 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R901-Pad2)).
+    ; warning
+    @(122.825 mm, 88.0 mm): Pad 2 [<no net>] of R901 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R902-Pad1)).
+    ; warning
+    @(127.175 mm, 88.0 mm): Pad 1 [<no net>] of R902 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R902-Pad2)).
+    ; warning
+    @(128.825 mm, 88.0 mm): Pad 2 [<no net>] of R902 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R903-Pad1)).
+    ; warning
+    @(133.175 mm, 88.0 mm): Pad 1 [<no net>] of R903 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R903-Pad2)).
+    ; warning
+    @(134.825 mm, 88.0 mm): Pad 2 [<no net>] of R903 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R905-Pad1)).
+    ; warning
+    @(139.175 mm, 88.0 mm): Pad 1 [<no net>] of R905 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R905-Pad2)).
+    ; warning
+    @(140.825 mm, 88.0 mm): Pad 2 [<no net>] of R905 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R1-Pad1)).
+    ; warning
+    @(85.175 mm, 88.0 mm): Pad 1 [<no net>] of R1 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R1-Pad2)).
+    ; warning
+    @(86.825 mm, 88.0 mm): Pad 2 [<no net>] of R1 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R301-Pad1)).
+    ; warning
+    @(91.175 mm, 88.0 mm): Pad 1 [<no net>] of R301 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R301-Pad2)).
+    ; warning
+    @(92.825 mm, 88.0 mm): Pad 2 [<no net>] of R301 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R302-Pad1)).
+    ; warning
+    @(97.175 mm, 88.0 mm): Pad 1 [<no net>] of R302 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R302-Pad2)).
+    ; warning
+    @(98.825 mm, 88.0 mm): Pad 2 [<no net>] of R302 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R303-Pad1)).
+    ; warning
+    @(103.175 mm, 88.0 mm): Pad 1 [<no net>] of R303 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R303-Pad2)).
+    ; warning
+    @(104.825 mm, 88.0 mm): Pad 2 [<no net>] of R303 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R401-Pad1)).
+    ; warning
+    @(109.175 mm, 88.0 mm): Pad 1 [<no net>] of R401 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R401-Pad2)).
+    ; warning
+    @(110.825 mm, 88.0 mm): Pad 2 [<no net>] of R401 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R403-Pad1)).
+    ; warning
+    @(115.175 mm, 88.0 mm): Pad 1 [<no net>] of R403 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R403-Pad2)).
+    ; warning
+    @(116.825 mm, 88.0 mm): Pad 2 [<no net>] of R403 on L1 (Sig, PWR)
+
+** End of Report **
