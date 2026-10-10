@@ -338,6 +338,14 @@
 		(at 132.08 105.41)
 		(uuid "532a20a8-ffba-4e0b-b61c-08e6c0d96f41")
 	)
+	(no_connect
+		(at 152.4 97.79)
+		(uuid "3275accf-e8d2-4709-ac0f-9303f607a772")
+	)
+	(no_connect
+		(at 152.4 105.41)
+		(uuid "519736f2-c2a6-425f-8bb3-f08b30d1d151")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 101.6 101.6 0)
