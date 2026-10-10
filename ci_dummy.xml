@@ -4,13 +4,78 @@
     <source>/github/workspace/ci_dummy.kicad_sch</source>
     <date>Date1</date>
     <tool>Eeschema 9.0.7+1</tool>
-    <textvar name="ASSEMBLY_NOTES"/>
+    <textvar name="ASSEMBLY_NOTES">ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)
+
+1)	DO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.
+
+2)	DO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.
+
+3)	IF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY
+	FILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.
+
+4)	CONFORMAL COATING IS NOT REQUIRED.
+
+5)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION
+	WHEN VIEWED FROM THE TOP.</textvar>
     <textvar name="BOARD_NAME">Board Name</textvar>
     <textvar name="COMPANY">ETH Robotics Club</textvar>
     <textvar name="DESIGNER">Author</textvar>
-    <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">8901aca</textvar>
-    <textvar name="GIT_HASH_SCH">c2824a7</textvar>
+    <textvar name="FABRICATION_NOTES">FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
+
+1)	FABRICATE PER IPC-6012A CLASS 2.
+
+2)	OUTLINE DEFINED IN SEPARATE GERBER FILE WITH
+	"Edge_Cuts.GBR" SUFFIX.
+
+	DIMENSIONS OF CIRCUMSCRIBED RECTANGLE SHOWN ON THIS
+	DRAWING FOR REFERENCE ONLY.
+
+3)	SEE SEPARATE DRILL FILES WITH ".DRL" SUFFIX 
+	FOR HOLE LOCATIONS.
+
+	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING 
+	FOR REFERENCE ONLY.
+
+4)	SURFACE FINISH: IMMERSION GOLD
+
+5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL 
+	BE LPI, COLOR BLACK.
+
+6)	SILKSCREEN LEGEND TO BE APPLIED PER LAYER 
+	STACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.
+
+7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS 
+	SOLDERMASK IS OPENED IN THE GERBER FILES.
+
+8)	VENDOR SHOULD FOLLOW RoHS COMPLIANT PROCESS 
+	AND Pb FREE FOR MANUFACTURING
+
+9)	PCB MATERIAL REQUIREMENTS:
+
+	A.	FLAMMABILITY RATING MUST MEET OR EXCEED 
+		UL94V-0 REQUIREMENTS.
+	B.	Tg 170 C OR EQUIVALENT.
+	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, 
+		HALOGEN FREE AND APPROVED BY COMPANY.
+
+10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
+
+	BOARD SIZE				70.000 × 45.000 mm
+	BOARD THICKNESS		1.660 mm
+	TRACE WIDTH			N/A mm
+	TRACE TO TRACE		0.200 mm
+	MIN. HOLE (PTH)			0.300 mm
+	MIN. HOLE (NPTH)		N/A mm
+	ANNULAR RING			0.150 mm
+	COPPER TO HOLE		0.254 mm
+	COPPER TO EDGE		0.250 mm
+	HOLE TO HOLE			0.254 mm
+
+11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
+
+12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
+    <textvar name="GIT_HASH_PCB">593369c</textvar>
+    <textvar name="GIT_HASH_SCH">593369c</textvar>
     <textvar name="GIT_URL">https://github.com/masiarhub/kicad_dummy_repo</textvar>
     <textvar name="PROJECT_NAME">Project Name</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -25,7 +90,7 @@
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">+ (Unreleased)</textvar>
+    <textvar name="REVISION">0.1.0</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -66,12 +131,12 @@
     <textvar name="SHEET_NAME_7">Revision History</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">DRAFT</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>ETH Robotics Club</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>0.1.0</rev>
         <date>Date2</date>
         <source>ci_dummy.kicad_sch</source>
         <comment number="1" value=""/>
@@ -89,7 +154,7 @@
       <title_block>
         <title>Block Diagram</title>
         <company>ETH Robotics Club</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>0.1.0</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -107,7 +172,7 @@
       <title_block>
         <title>Project Architecture</title>
         <company>ETH Robotics Club</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>0.1.0</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
@@ -125,7 +190,7 @@
       <title_block>
         <title>Sheet Title A</title>
         <company>ETH Robotics Club</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>0.1.0</rev>
         <date>Date2</date>
         <source>Section A - Title A.kicad_sch</source>
         <comment number="1" value=""/>
@@ -143,7 +208,7 @@
       <title_block>
         <title>Sheet Title B</title>
         <company>ETH Robotics Club</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>0.1.0</rev>
         <date>Date2</date>
         <source>Section B - TItle B.kicad_sch</source>
         <comment number="1" value=""/>
@@ -161,7 +226,7 @@
       <title_block>
         <title>Power - Sequencing</title>
         <company>ETH Robotics Club</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>0.1.0</rev>
         <date>Date2</date>
         <source>Power - Sequencing.kicad_sch</source>
         <comment number="1" value=""/>
@@ -179,7 +244,7 @@
       <title_block>
         <title>Revision History</title>
         <company>ETH Robotics Club</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>0.1.0</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
