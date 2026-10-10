@@ -226,16 +226,78 @@
 <tr>
  <td class="cell-info">
    <b>PCB</b>: ci_dummy<br>
-   <b>Revision</b>: 0.1.0<br>
-   <b>Date</b>: 2026-10-10T08:03:00+0000<br>
+   <b>Revision</b>: 0.2.0<br>
+   <b>Date</b>: 2026-10-10T08:38:51+0000<br>
    <b>KiCad Version</b>: 9.0.7<br>
  </td>
  <td class="cell-stats">
-   <b>Errors</b>: 0<br>
-   <b>Warnings</b>: 20<br>
-   <b>Total</b>: 20<br>
+   <b>Errors</b>: 6<br>
+   <b>Warnings</b>: 30<br>
+   <b>Total</b>: 36<br>
  </td>
 </tr>
+</table>
+<p class="subtitle">Violations</p>
+<table class="content-table">
+ <thead>
+  <tr>
+   <th>Type</th>
+   <th>Description</th>
+   <th>Details</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr id="0">
+   <td class="td-error">clearance</td>
+   <td>Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.0000 mm)</td>
+   <td>@(127.175 mm, 88.0 mm): Pad 1 [<no net>] of R405 on L1 (Sig, PWR)<br>@(127.175 mm, 88.0 mm): Pad 1 [<no net>] of R902 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="1">
+   <td class="td-error">clearance</td>
+   <td>Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.0000 mm)</td>
+   <td>@(128.825 mm, 88.0 mm): Pad 2 [<no net>] of R405 on L1 (Sig, PWR)<br>@(128.825 mm, 88.0 mm): Pad 2 [<no net>] of R902 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="2">
+   <td class="td-error">clearance</td>
+   <td>Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.0000 mm)</td>
+   <td>@(109.175 mm, 88.0 mm): Pad 1 [<no net>] of R304 on L1 (Sig, PWR)<br>@(109.175 mm, 88.0 mm): Pad 1 [<no net>] of R401 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="3">
+   <td class="td-error">clearance</td>
+   <td>Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.0000 mm)</td>
+   <td>@(110.825 mm, 88.0 mm): Pad 2 [<no net>] of R304 on L1 (Sig, PWR)<br>@(110.825 mm, 88.0 mm): Pad 2 [<no net>] of R401 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="4">
+   <td class="td-error">courtyards_overlap</td>
+   <td>Courtyards overlap</td>
+   <td>@(128.0 mm, 88.0 mm): Footprint R405<br>@(128.0 mm, 88.0 mm): Footprint R902<br></td>
+  </tr>
+  <tr id="5">
+   <td class="td-error">courtyards_overlap</td>
+   <td>Courtyards overlap</td>
+   <td>@(110.0 mm, 88.0 mm): Footprint R304<br>@(110.0 mm, 88.0 mm): Footprint R401<br></td>
+  </tr>
+  <tr id="6">
+   <td class="td-warning">solder_mask_bridge</td>
+   <td>Front solder mask aperture bridges items with different nets</td>
+   <td>@(127.175 mm, 88.0 mm): Pad 1 [<no net>] of R405 on L1 (Sig, PWR)<br>@(127.175 mm, 88.0 mm): Pad 1 [<no net>] of R902 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="7">
+   <td class="td-warning">solder_mask_bridge</td>
+   <td>Front solder mask aperture bridges items with different nets</td>
+   <td>@(128.825 mm, 88.0 mm): Pad 2 [<no net>] of R405 on L1 (Sig, PWR)<br>@(128.825 mm, 88.0 mm): Pad 2 [<no net>] of R902 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="8">
+   <td class="td-warning">solder_mask_bridge</td>
+   <td>Front solder mask aperture bridges items with different nets</td>
+   <td>@(109.175 mm, 88.0 mm): Pad 1 [<no net>] of R304 on L1 (Sig, PWR)<br>@(109.175 mm, 88.0 mm): Pad 1 [<no net>] of R401 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="9">
+   <td class="td-warning">solder_mask_bridge</td>
+   <td>Front solder mask aperture bridges items with different nets</td>
+   <td>@(110.825 mm, 88.0 mm): Pad 2 [<no net>] of R304 on L1 (Sig, PWR)<br>@(110.825 mm, 88.0 mm): Pad 2 [<no net>] of R401 on L1 (Sig, PWR)<br></td>
+  </tr>
+ </tbody>
 </table>
 <p class="subtitle">Schematic parity</p>
 <table class="content-table">
@@ -247,105 +309,135 @@
   </tr>
  </thead>
  <tbody>
-  <tr id="0">
+  <tr id="10">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R901-Pad1)).</td>
    <td>@(121.175 mm, 88.0 mm): Pad 1 [<no net>] of R901 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="1">
+  <tr id="11">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R901-Pad2)).</td>
    <td>@(122.825 mm, 88.0 mm): Pad 2 [<no net>] of R901 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="2">
+  <tr id="12">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R902-Pad1)).</td>
    <td>@(127.175 mm, 88.0 mm): Pad 1 [<no net>] of R902 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="3">
+  <tr id="13">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R902-Pad2)).</td>
    <td>@(128.825 mm, 88.0 mm): Pad 2 [<no net>] of R902 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="4">
+  <tr id="14">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R903-Pad1)).</td>
    <td>@(133.175 mm, 88.0 mm): Pad 1 [<no net>] of R903 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="5">
+  <tr id="15">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R903-Pad2)).</td>
    <td>@(134.825 mm, 88.0 mm): Pad 2 [<no net>] of R903 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="6">
+  <tr id="16">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R905-Pad1)).</td>
    <td>@(139.175 mm, 88.0 mm): Pad 1 [<no net>] of R905 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="7">
+  <tr id="17">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R905-Pad2)).</td>
    <td>@(140.825 mm, 88.0 mm): Pad 2 [<no net>] of R905 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="8">
+  <tr id="18">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad missing net given by schematic (unconnected-(R906-Pad1)).</td>
+   <td>@(97.175 mm, 94.0 mm): Pad 1 [<no net>] of R906 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="19">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad missing net given by schematic (unconnected-(R906-Pad2)).</td>
+   <td>@(98.825 mm, 94.0 mm): Pad 2 [<no net>] of R906 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="20">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R1-Pad1)).</td>
    <td>@(85.175 mm, 88.0 mm): Pad 1 [<no net>] of R1 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="9">
+  <tr id="21">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R1-Pad2)).</td>
    <td>@(86.825 mm, 88.0 mm): Pad 2 [<no net>] of R1 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="10">
+  <tr id="22">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R301-Pad1)).</td>
    <td>@(91.175 mm, 88.0 mm): Pad 1 [<no net>] of R301 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="11">
+  <tr id="23">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R301-Pad2)).</td>
    <td>@(92.825 mm, 88.0 mm): Pad 2 [<no net>] of R301 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="12">
+  <tr id="24">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R302-Pad1)).</td>
    <td>@(97.175 mm, 88.0 mm): Pad 1 [<no net>] of R302 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="13">
+  <tr id="25">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R302-Pad2)).</td>
    <td>@(98.825 mm, 88.0 mm): Pad 2 [<no net>] of R302 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="14">
+  <tr id="26">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R303-Pad1)).</td>
    <td>@(103.175 mm, 88.0 mm): Pad 1 [<no net>] of R303 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="15">
+  <tr id="27">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R303-Pad2)).</td>
    <td>@(104.825 mm, 88.0 mm): Pad 2 [<no net>] of R303 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="16">
+  <tr id="28">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad missing net given by schematic (unconnected-(R304-Pad1)).</td>
+   <td>@(109.175 mm, 88.0 mm): Pad 1 [<no net>] of R304 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="29">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad missing net given by schematic (unconnected-(R304-Pad2)).</td>
+   <td>@(110.825 mm, 88.0 mm): Pad 2 [<no net>] of R304 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="30">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R401-Pad1)).</td>
    <td>@(109.175 mm, 88.0 mm): Pad 1 [<no net>] of R401 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="17">
+  <tr id="31">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R401-Pad2)).</td>
    <td>@(110.825 mm, 88.0 mm): Pad 2 [<no net>] of R401 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="18">
+  <tr id="32">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R403-Pad1)).</td>
    <td>@(115.175 mm, 88.0 mm): Pad 1 [<no net>] of R403 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="19">
+  <tr id="33">
    <td class="td-warning">net_conflict</td>
    <td>Pad missing net given by schematic (unconnected-(R403-Pad2)).</td>
    <td>@(116.825 mm, 88.0 mm): Pad 2 [<no net>] of R403 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="34">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad missing net given by schematic (unconnected-(R405-Pad1)).</td>
+   <td>@(127.175 mm, 88.0 mm): Pad 1 [<no net>] of R405 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="35">
+   <td class="td-warning">net_conflict</td>
+   <td>Pad missing net given by schematic (unconnected-(R405-Pad2)).</td>
+   <td>@(128.825 mm, 88.0 mm): Pad 2 [<no net>] of R405 on L1 (Sig, PWR)<br></td>
   </tr>
  </tbody>
 </table>

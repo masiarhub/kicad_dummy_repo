@@ -1,11 +1,51 @@
 ** Drc report for ci_dummy.kicad_pcb **
-** Created on 2026-10-10T08:03:00+0000 **
+** Created on 2026-10-10T08:38:51+0000 **
 
-** Found 0 DRC violations **
+** Found 10 DRC violations **
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.0000 mm)
+    ; error
+    @(127.175 mm, 88.0 mm): Pad 1 [<no net>] of R405 on L1 (Sig, PWR)
+    @(127.175 mm, 88.0 mm): Pad 1 [<no net>] of R902 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.0000 mm)
+    ; error
+    @(128.825 mm, 88.0 mm): Pad 2 [<no net>] of R405 on L1 (Sig, PWR)
+    @(128.825 mm, 88.0 mm): Pad 2 [<no net>] of R902 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.0000 mm)
+    ; error
+    @(109.175 mm, 88.0 mm): Pad 1 [<no net>] of R304 on L1 (Sig, PWR)
+    @(109.175 mm, 88.0 mm): Pad 1 [<no net>] of R401 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.0000 mm)
+    ; error
+    @(110.825 mm, 88.0 mm): Pad 2 [<no net>] of R304 on L1 (Sig, PWR)
+    @(110.825 mm, 88.0 mm): Pad 2 [<no net>] of R401 on L1 (Sig, PWR)
+[courtyards_overlap]: Courtyards overlap
+    ; error
+    @(128.0 mm, 88.0 mm): Footprint R405
+    @(128.0 mm, 88.0 mm): Footprint R902
+[courtyards_overlap]: Courtyards overlap
+    ; error
+    @(110.0 mm, 88.0 mm): Footprint R304
+    @(110.0 mm, 88.0 mm): Footprint R401
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(127.175 mm, 88.0 mm): Pad 1 [<no net>] of R405 on L1 (Sig, PWR)
+    @(127.175 mm, 88.0 mm): Pad 1 [<no net>] of R902 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(128.825 mm, 88.0 mm): Pad 2 [<no net>] of R405 on L1 (Sig, PWR)
+    @(128.825 mm, 88.0 mm): Pad 2 [<no net>] of R902 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(109.175 mm, 88.0 mm): Pad 1 [<no net>] of R304 on L1 (Sig, PWR)
+    @(109.175 mm, 88.0 mm): Pad 1 [<no net>] of R401 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(110.825 mm, 88.0 mm): Pad 2 [<no net>] of R304 on L1 (Sig, PWR)
+    @(110.825 mm, 88.0 mm): Pad 2 [<no net>] of R401 on L1 (Sig, PWR)
 
 ** Found 0 unconnected pads **
 
-** Found 20 Footprint errors **
+** Found 26 Footprint errors **
 [net_conflict]: Pad missing net given by schematic (unconnected-(R901-Pad1)).
     ; warning
     @(121.175 mm, 88.0 mm): Pad 1 [<no net>] of R901 on L1 (Sig, PWR)
@@ -30,6 +70,12 @@
 [net_conflict]: Pad missing net given by schematic (unconnected-(R905-Pad2)).
     ; warning
     @(140.825 mm, 88.0 mm): Pad 2 [<no net>] of R905 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R906-Pad1)).
+    ; warning
+    @(97.175 mm, 94.0 mm): Pad 1 [<no net>] of R906 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R906-Pad2)).
+    ; warning
+    @(98.825 mm, 94.0 mm): Pad 2 [<no net>] of R906 on L1 (Sig, PWR)
 [net_conflict]: Pad missing net given by schematic (unconnected-(R1-Pad1)).
     ; warning
     @(85.175 mm, 88.0 mm): Pad 1 [<no net>] of R1 on L1 (Sig, PWR)
@@ -54,6 +100,12 @@
 [net_conflict]: Pad missing net given by schematic (unconnected-(R303-Pad2)).
     ; warning
     @(104.825 mm, 88.0 mm): Pad 2 [<no net>] of R303 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R304-Pad1)).
+    ; warning
+    @(109.175 mm, 88.0 mm): Pad 1 [<no net>] of R304 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R304-Pad2)).
+    ; warning
+    @(110.825 mm, 88.0 mm): Pad 2 [<no net>] of R304 on L1 (Sig, PWR)
 [net_conflict]: Pad missing net given by schematic (unconnected-(R401-Pad1)).
     ; warning
     @(109.175 mm, 88.0 mm): Pad 1 [<no net>] of R401 on L1 (Sig, PWR)
@@ -66,5 +118,11 @@
 [net_conflict]: Pad missing net given by schematic (unconnected-(R403-Pad2)).
     ; warning
     @(116.825 mm, 88.0 mm): Pad 2 [<no net>] of R403 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R405-Pad1)).
+    ; warning
+    @(127.175 mm, 88.0 mm): Pad 1 [<no net>] of R405 on L1 (Sig, PWR)
+[net_conflict]: Pad missing net given by schematic (unconnected-(R405-Pad2)).
+    ; warning
+    @(128.825 mm, 88.0 mm): Pad 2 [<no net>] of R405 on L1 (Sig, PWR)
 
 ** End of Report **
