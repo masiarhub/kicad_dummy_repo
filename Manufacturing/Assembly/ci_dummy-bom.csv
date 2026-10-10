@@ -1,2 +1,3 @@
 Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufacturer,Manufacturer Part Number,Supplier Part Number
-1,1,R301,10k,~,R_0603_1608Metric,,,,
+1,1,R401,4k7,~,R_0603_1608Metric,,,,
+2,1,R301,10k,~,R_0603_1608Metric,,,,
