@@ -674,7 +674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56b8223f-acf3-46cd-a328-9f419f066036")
-		(property "Reference" "R1"
+		(property "Reference" "R403"
 			(at 124.46000000000001 101.6 0)
 			(effects (font (size 1.27 1.27)) (justify left))
 		)
@@ -695,7 +695,7 @@
 		(instances
 			(project "ci_dummy"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "R1")
+					(reference "R403")
 					(unit 1)
 				)
 			)
