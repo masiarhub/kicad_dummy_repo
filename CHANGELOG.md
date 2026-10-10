@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+-   Section B: CAN termination R405
+
 ## [0.1.0] - 2026-10-10
 
 ### Fixed
