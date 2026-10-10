@@ -3,7 +3,7 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 2,1,R1,2k2,~,R_0603_1608Metric,,,,
 3,1,R403,3k3,~,R_0603_1608Metric,,,,
 4,1,R401,4k7,~,R_0603_1608Metric,,,,
-5,1,R301,10k,~,R_0603_1608Metric,,,,
+5,2,R301 R905,10k,~,R_0603_1608Metric,,,,
 6,1,R302,22k,~,R_0603_1608Metric,,,,
 7,1,R303,47k,~,R_0603_1608Metric,,,,
 8,2,R901 R902,100k,~,R_0603_1608Metric,,,,
