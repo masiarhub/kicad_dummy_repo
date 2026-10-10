@@ -1,6 +1,6 @@
 (export (version "E")
   (design
-    (source "/tmp/tmp-kibot-net_sch_print-bcyvmgbp/ci_dummy.kicad_sch")
+    (source "/tmp/tmp-kibot-net_sch_print-pzz80a_u/ci_dummy.kicad_sch")
     (date "Date")
     (tool "Eeschema 9.0.7+1")
     (textvar (name "ASSEMBLY_NOTES"))
@@ -8,7 +8,7 @@
     (textvar (name "COMPANY") "ETH Robotics Club")
     (textvar (name "DESIGNER") "Author")
     (textvar (name "FABRICATION_NOTES"))
-    (textvar (name "GIT_HASH_PCB") "a0f1683")
+    (textvar (name "GIT_HASH_PCB") "8901aca")
     (textvar (name "GIT_HASH_SCH") "c2824a7")
     (textvar (name "GIT_URL") "https://github.com/masiarhub/kicad_dummy_repo")
     (textvar (name "PROJECT_NAME") "Project Name")
