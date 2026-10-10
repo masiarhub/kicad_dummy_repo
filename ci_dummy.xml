@@ -246,6 +246,23 @@
       <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>f10964b3-50c3-47ca-9b31-6edc5dabf272</tstamps>
     </comp>
+    <comp ref="R302">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Section A - Title A"/>
+      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>e26ff8c0-65f9-4ef7-b0de-c8346eeda722</tstamps>
+    </comp>
     <comp ref="R401">
       <value>4k7</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
@@ -296,22 +313,28 @@
     <net code="2" name="unconnected-(R301-Pad2)" class="Default">
       <node ref="R301" pin="2" pintype="passive"/>
     </net>
-    <net code="3" name="unconnected-(R401-Pad1)" class="Default">
+    <net code="3" name="unconnected-(R302-Pad1)" class="Default">
+      <node ref="R302" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="unconnected-(R302-Pad2)" class="Default">
+      <node ref="R302" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="unconnected-(R401-Pad1)" class="Default">
       <node ref="R401" pin="1" pintype="passive"/>
     </net>
-    <net code="4" name="unconnected-(R401-Pad2)" class="Default">
+    <net code="6" name="unconnected-(R401-Pad2)" class="Default">
       <node ref="R401" pin="2" pintype="passive"/>
     </net>
-    <net code="5" name="unconnected-(R901-Pad1)" class="Default">
+    <net code="7" name="unconnected-(R901-Pad1)" class="Default">
       <node ref="R901" pin="1" pintype="passive"/>
     </net>
-    <net code="6" name="unconnected-(R901-Pad2)" class="Default">
+    <net code="8" name="unconnected-(R901-Pad2)" class="Default">
       <node ref="R901" pin="2" pintype="passive"/>
     </net>
-    <net code="7" name="unconnected-(R902-Pad1)" class="Default">
+    <net code="9" name="unconnected-(R902-Pad1)" class="Default">
       <node ref="R902" pin="1" pintype="passive"/>
     </net>
-    <net code="8" name="unconnected-(R902-Pad2)" class="Default">
+    <net code="10" name="unconnected-(R902-Pad2)" class="Default">
       <node ref="R902" pin="2" pintype="passive"/>
     </net>
   </nets>
