@@ -581,10 +581,10 @@
       <node ref="R905" pin="2" pintype="passive+no_connect"/>
     </net>
     <net code="25" name="unconnected-(R906-Pad1)" class="Default">
-      <node ref="R906" pin="1" pintype="passive"/>
+      <node ref="R906" pin="1" pintype="passive+no_connect"/>
     </net>
     <net code="26" name="unconnected-(R906-Pad2)" class="Default">
-      <node ref="R906" pin="2" pintype="passive"/>
+      <node ref="R906" pin="2" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>

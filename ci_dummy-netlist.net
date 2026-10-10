@@ -1,6 +1,6 @@
 (export (version "E")
   (design
-    (source "/tmp/tmp-kibot-net_sch_print-1eix713f/ci_dummy.kicad_sch")
+    (source "/tmp/tmp-kibot-net_sch_print-g9p68x1k/ci_dummy.kicad_sch")
     (date "Date")
     (tool "Eeschema 9.0.7+1")
     (textvar (name "ASSEMBLY_NOTES") "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	DO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.\n\n2)	DO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.\n\n3)	IF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n	FILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n4)	CONFORMAL COATING IS NOT REQUIRED.\n\n5)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n	WHEN VIEWED FROM THE TOP.")
@@ -442,6 +442,6 @@
     (net (code "24") (name "unconnected-(R905-Pad2)") (class "Default")
       (node (ref "R905") (pin "2") (pintype "passive+no_connect")))
     (net (code "25") (name "unconnected-(R906-Pad1)") (class "Default")
-      (node (ref "R906") (pin "1") (pintype "passive")))
+      (node (ref "R906") (pin "1") (pintype "passive+no_connect")))
     (net (code "26") (name "unconnected-(R906-Pad2)") (class "Default")
-      (node (ref "R906") (pin "2") (pintype "passive")))))
+      (node (ref "R906") (pin "2") (pintype "passive+no_connect")))))
