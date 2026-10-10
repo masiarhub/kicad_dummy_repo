@@ -342,4 +342,40 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e26ff8c0-65f9-4ef7-b0de-c8346eeda722")
+		(property "Reference" "R302"
+			(at 114.30000000000001 101.6 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "22k"
+			(at 114.30000000000001 104.14 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 111.76 101.6 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 111.76 101.6 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "fe06b541-cdaa-437d-b741-ae31d9ea5e37"))
+		(pin "2" (uuid "49e2eb05-9ee1-4a3d-a654-17d42f32f739"))
+		(instances
+			(project "ci_dummy"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
+					(reference "R302")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
